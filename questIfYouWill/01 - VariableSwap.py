@@ -8,9 +8,11 @@ a = 3
 b = 2
 c = 1
 
-print("a =",b - c)
-print("b =",b + c)
-print("c =",a - c)
+a, b, c = c, a, b
+
+print("a =", a)
+print("b =", b)
+print("c =", c)
 
 
 # New Test Values :
@@ -40,3 +42,17 @@ print("c =", c)
 # Write a program to swap the values of three variable(values of a, b, c should be user-given at run time)
 # Additional Points, for using Method/function Call in the program.
 # Write Code Below.
+
+a = int(input("a = "))
+b = int(input("b = "))
+c = int(input("c = "))
+
+print()
+
+a, b, c = b, c, a
+
+print()
+
+print("a =", a)
+print("b =", b)
+print("c =", c)
