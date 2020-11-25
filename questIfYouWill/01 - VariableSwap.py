@@ -19,6 +19,13 @@ print("c =",a - c)
 
 # Write Code Below.
 
+a = 218
+b = 417
+c = 301
+
+print("a = {}".format(b))
+print("b = {}".format(c))
+print("c = {}".format(a))
 
 
 
