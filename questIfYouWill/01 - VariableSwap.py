@@ -26,15 +26,7 @@ c = 301
 print("a = {}".format(b))
 print("b = {}".format(c))
 print("c = {}".format(a))
-
-
-
-
-
-
-
-
-
+### a, b, c values not swapped.
 
 # Write a program to swap the values of three variable(values of a, b, c should be user-given at run time)
 # Additional Points, for using Method/function Call in the program.
