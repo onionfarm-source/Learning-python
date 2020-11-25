@@ -8,9 +8,11 @@ a = 3
 b = 2
 c = 1
 
-print("a =",b - c)
-print("b =",b + c)
-print("c =",a - c)
+a, b, c = c, a, b
+
+print("a =", a)
+print("b =", b)
+print("c =", c)
 
 
 # New Test Values :
