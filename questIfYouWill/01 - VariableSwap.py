@@ -4,7 +4,7 @@
 
 # Write Code Below.
 
-a = 3
+"""a = 3
 b = 2
 c = 1
 
@@ -34,15 +34,35 @@ a = 218
 b = 417
 c = 301
 
-a, b, c = b, c, a
+a, b, c = a, b, c
+
+# Long hand error
+a = b
+b = c
+c = a
+
 print("a =", a)
 print("b =", b)
 print("c =", c)
+
+"""
+# Modified :
+a = 218     # 417
+b = 417     # 301
+c = 301     # 218
+a = a + b + c
+c = (a - (b + c))
+b = (a - (b + c))
+a = (a - (b + c))
+print("a = ", a)
+print("b = ", b)
+print("c = ", c)
 
 # Write a program to swap the values of three variable(values of a, b, c should be user-given at run time)
 # Additional Points, for using Method/function Call in the program.
 # Write Code Below.
 
+"""
 a = int(input("a = "))
 b = int(input("b = "))
 c = int(input("c = "))
@@ -56,3 +76,4 @@ print()
 print("a =", a)
 print("b =", b)
 print("c =", c)
+"""
