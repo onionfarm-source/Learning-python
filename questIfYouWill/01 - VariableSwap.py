@@ -43,12 +43,16 @@ print("c =", c)
 # Additional Points, for using Method/function Call in the program.
 # Write Code Below.
 
-a = int(input("a "))
-b = int(input("b "))
-c = int(input("c "))
+a = int(input("a = "))
+b = int(input("b = "))
+c = int(input("c = "))
+
+print()
 
 a, b, c = b, c, a
 
-print(" a =", a)
-print(" b =", b)
-print(" c =", c)
+print()
+
+print("a =", a)
+print("b =", b)
+print("c =", c)
