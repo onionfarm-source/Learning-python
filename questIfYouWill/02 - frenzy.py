@@ -18,4 +18,23 @@
 # Additional points for modulating each of the above code by a function call for ease of use in future case
 # i.e not having to reinvent the wheel each and every time when needed.
 
+# Even or Odd
+number = int(input("Please enter a number "))
+if number % 2 == 0:
+    print("The number {} is even ".format(number))
+else:
+    print("The number {} is odd ".format(number))
+
+# Angles of a triangle
+
+angle_1 = int(input("Please enter the first angle of the triangle "))
+angle_2 = int(input("Please enter the second angle of the triangle "))
+angle_3 = int(input("Please enter the third angle of the triangle "))
+
+if angle_1 + angle_2 + angle_3 <= 180:
+    print("These angles make a triangle")
+else:
+    print("Sorry, these angles do not make a triangle")
+
+
 
