@@ -19,11 +19,14 @@
 # i.e not having to reinvent the wheel each and every time when needed.
 
 # Even or Odd
+
 number = int(input("Please enter a number "))
 if number % 2 == 0:
     print("The number {} is even ".format(number))
 else:
     print("The number {} is odd ".format(number))
+
+print()
 
 # Angles of a triangle
 
@@ -35,6 +38,8 @@ if angle_1 + angle_2 + angle_3 <= 180:
     print("These angles make a triangle")
 else:
     print("Sorry, these angles do not make a triangle")
+
+print()
 
 # Max numbers
 
@@ -51,4 +56,14 @@ if num_3 > num_1 and num_3 > num_2:
 if num_1 == num_2 == num_3:
     print("The numbers are equal")
 
+print()
 
+# Negative, Positive or Zero
+
+number = int(input("Please enter a number "))
+if number > 0:
+    print("The number is positive")
+elif number == 0:
+    print("The number is zero")
+else:
+    print("The number is negative")
