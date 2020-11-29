@@ -18,9 +18,10 @@
 # Additional points for modulating each of the above code by a function call for ease of use in future case
 # i.e not having to reinvent the wheel each and every time when needed.
 
-# Even or Odd
+#  Even or Odd
 
 number = int(input("Please enter a number "))
+
 if number % 2 == 0:
     print("The number {} is even ".format(number))
 else:
@@ -28,13 +29,13 @@ else:
 
 print()
 
-# Angles of a triangle
+#  Angles of a triangle
 
 angle_1 = int(input("Please enter the first angle of the triangle "))
 angle_2 = int(input("Please enter the second angle of the triangle "))
 angle_3 = int(input("Please enter the third angle of the triangle "))
 
-if angle_1 + angle_2 + angle_3 <= 180:
+if angle_1 + angle_2 + angle_3 == 180:
     print("These angles make a triangle")
 else:
     print("Sorry, these angles do not make a triangle")
@@ -61,9 +62,40 @@ print()
 # Negative, Positive or Zero
 
 number = int(input("Please enter a number "))
+
 if number > 0:
     print("The number is positive")
 elif number == 0:
     print("The number is zero")
 else:
     print("The number is negative")
+
+print()
+
+# Leap year
+
+Year = int(input("Please enter the year "))
+
+if Year % 4 == 0:
+    print("{} is a leap year ".format(Year))
+elif Year % 100 == 0:
+    print("{} is a leap year ".format(Year))
+elif Year % 400 == 0:
+    print("{} is a leap year".format(Year))
+else:
+    print("{} is not a leap year".format(Year))
+
+print()
+
+# Profit and loss
+
+actual_price = int(input("Please enter the actual price of goods "))
+sale_price = int(input("Please enter the sale price of goods "))
+
+if actual_price < sale_price:
+    amount = sale_price - actual_price
+    print("The goods were sold at a profit of {}".format(amount))
+
+elif actual_price > sale_price:
+    amount = actual_price - sale_price
+    print("The goods were sold at a loss of {}".format(amount))
