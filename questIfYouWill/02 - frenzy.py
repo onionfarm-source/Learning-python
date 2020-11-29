@@ -36,5 +36,19 @@ if angle_1 + angle_2 + angle_3 <= 180:
 else:
     print("Sorry, these angles do not make a triangle")
 
+# Max numbers
+
+num_1 = int(input("Please enter the first number "))
+num_2 = int(input("Please enter the second number "))
+num_3 = int(input("Please enter the third number "))
+
+if num_1 > num_2 and num_1 > num_3:
+    print("The number {} is maximum".format(num_1))
+if num_2 > num_1 and num_2 > num_3:
+    print("The number {} is maximum".format(num_2))
+if num_3 > num_1 and num_3 > num_2:
+    print("The number {} is maximum".format(num_3))
+if num_1 == num_2 == num_3:
+    print("The numbers are equal")
 
 
