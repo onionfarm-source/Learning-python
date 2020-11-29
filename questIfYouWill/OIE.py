@@ -1,2 +1,0 @@
-# OIE
-# kosto chas
