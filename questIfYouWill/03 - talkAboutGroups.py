@@ -5,7 +5,7 @@
 
 # Good day to learn something new. Armstrong Number, probably also known as Narcissistic Number ! ! !  
 # - - - - - - - - - - - - - - - Check it out - - - - - - - - - - - - - - - - - - 
-#It's enlightening to know such a thing/concept/value exist.
+# It's enlightening to know such a thing/concept/value exist.
 
 
 # Write a program to find whether a number is a Armstrong number using functions.
